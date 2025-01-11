@@ -3,5 +3,4 @@
 navi_shi_erp
 
 #### License
-
-mit
+All rights reserved. Unauthorized use, modification, or distribution of this software is strictly prohibited.
