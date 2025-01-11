@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-10 10:03:53.300510",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "consumable_info_section",
+  "consumable_name",
+  "column_break_tyti",
+  "specification",
+  "consumable_quantity_section",
+  "quantity",
+  "column_break_hygs",
+  "uom",
+  "consumable_cost_section",
+  "costuom",
+  "column_break_yfsa",
+  "subtotal_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "consumable_info_section",
+   "fieldtype": "Section Break",
+   "label": "Consumable Info"
+  },
+  {
+   "columns": 2,
+   "fieldname": "consumable_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Consumable Name"
+  },
+  {
+   "fieldname": "column_break_tyti",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "specification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Specification"
+  },
+  {
+   "fieldname": "consumable_quantity_section",
+   "fieldtype": "Section Break",
+   "label": "Consumable Quantity"
+  },
+  {
+   "columns": 1,
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "column_break_hygs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Uom",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "consumable_cost_section",
+   "fieldtype": "Section Break",
+   "label": "Consumable Cost"
+  },
+  {
+   "columns": 2,
+   "fieldname": "costuom",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Cost/UoM",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_yfsa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "subtotal_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Subtotal Cost",
+   "non_negative": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-10 10:44:44.026929",
+ "modified_by": "Administrator",
+ "module": "NAVI SHI ERP",
+ "name": "CBD Consumable",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

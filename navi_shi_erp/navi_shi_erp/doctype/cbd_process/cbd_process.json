@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-10 10:30:13.050307",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "process_details_section",
+  "process_name",
+  "process_quantity_section",
+  "quantity",
+  "column_break_wefr",
+  "uom",
+  "section_break_zkni",
+  "costuom",
+  "column_break_hyrs",
+  "subtotal_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "process_details_section",
+   "fieldtype": "Section Break",
+   "label": "Process Details"
+  },
+  {
+   "columns": 3,
+   "fieldname": "process_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Process Name"
+  },
+  {
+   "fieldname": "process_quantity_section",
+   "fieldtype": "Section Break",
+   "label": "Process Quantity"
+  },
+  {
+   "fieldname": "column_break_wefr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UoM",
+   "length": 1,
+   "options": "UOM"
+  },
+  {
+   "fieldname": "section_break_zkni",
+   "fieldtype": "Section Break",
+   "label": "Process Cost"
+  },
+  {
+   "columns": 2,
+   "fieldname": "costuom",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Cost/UoM"
+  },
+  {
+   "fieldname": "column_break_hyrs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "columns": 2,
+   "fieldname": "subtotal_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Subtotal Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-10 10:44:10.176642",
+ "modified_by": "Administrator",
+ "module": "NAVI SHI ERP",
+ "name": "CBD Process",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

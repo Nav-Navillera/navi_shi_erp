@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-10 08:41:45.236535",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "material_info_section",
+  "material",
+  "column_break_oqir",
+  "size_or_dimension",
+  "quantity_section",
+  "quantity",
+  "column_break_rrwx",
+  "uom",
+  "cost_section",
+  "costuom",
+  "column_break_fejg",
+  "subtotal_cost"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "material",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Material"
+  },
+  {
+   "columns": 2,
+   "fieldname": "size_or_dimension",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Size or Dimension"
+  },
+  {
+   "columns": 1,
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "columns": 1,
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "UoM",
+   "options": "UOM"
+  },
+  {
+   "columns": 2,
+   "fieldname": "costuom",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Cost/UoM"
+  },
+  {
+   "fieldname": "column_break_oqir",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "material_info_section",
+   "fieldtype": "Section Break",
+   "label": "Material Info"
+  },
+  {
+   "fieldname": "quantity_section",
+   "fieldtype": "Section Break",
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "column_break_rrwx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cost_section",
+   "fieldtype": "Section Break",
+   "label": "Cost"
+  },
+  {
+   "fieldname": "column_break_fejg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "subtotal_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Subtotal Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-10 10:45:18.478149",
+ "modified_by": "Administrator",
+ "module": "NAVI SHI ERP",
+ "name": "CBD Material",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
